@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["title"] = "Ürün Yönetim Paneli";
+    Layout = "_AdminLayout";
+}
+@model CustomerAddDto
+<div class="row">
+    <div class="col-4">
+        <form asp-action="CreateCustomer" method="post">
+    @*<div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
+    <div class="form-group">
+        <label for="Name">Şirket Adı</label>
+        <input type="text" id="Name" class="form-control" asp-for="CustomerName" />
+        <span asp-validation-for="CustomerName" class="text-danger"></span>
+    </div>
+   
+    <div class="form-group">
+        <label for="Description">Yetkili kişi</label>
+        <input type="text" id="Description" class="form-control" asp-for="ContactName" />
+    </div>
+      <div class="form-group">
+        <label for="Address">Adres</label>
+        <input type="text" id="Address" class="form-control" asp-for="Address" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+      <div class="form-group">
+        <label for="Phone">Telefon no</label>
+        <input type="text" id="Phone" class="form-control" asp-for="Phone" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+      <div class="form-group">
+        <label for="CustomerId">Müşteri Numarası</label>
+        <input type="text" id="CustomerId" class="form-control" asp-for="CustomerId" />
+        <span asp-validation-for="CustomerId" class="text-danger"></span>
+    </div>
+    <button class="btn btn-primary float-end mt-3 w-25" type="submit">Kaydet</button>
+</form>
+    </div>
+    <div class="col-8">
+
+          @await Component.InvokeAsync("Customer")
+    </div>
+</div>
+
+
+@section Scripts{
+    @{
+    <partial name="_ValidationScriptsPartial" />
+ } @*partial ile cshtml i inject ettik*@
+}
+
