@@ -1,4 +1,5 @@
-﻿using BilgeAdam.Common.Dtos;
+﻿using BilgeAdam.Common.Dtos.Customer;
+
 namespace BilgeAdam.Services.Abstractions
 {
     public interface ICustomerService

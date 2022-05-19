@@ -1,4 +1,4 @@
-﻿namespace BilgeAdam.Common.Dtos
+﻿namespace BilgeAdam.Common.Dtos.Product
 {
     public class ProductViewDto
     {

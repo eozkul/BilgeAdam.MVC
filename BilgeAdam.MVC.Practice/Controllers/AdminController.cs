@@ -1,6 +1,7 @@
-﻿using BilgeAdam.Common.Dtos;
+﻿using BilgeAdam.Common.Dtos.Category;
+using BilgeAdam.Common.Dtos.Customer;
+using BilgeAdam.Common.Dtos.Product;
 using BilgeAdam.Services.Abstractions;
-using BilgeAdam.Services.Concretes;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BilgeAdam.MVC.Practice.Controllers

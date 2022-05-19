@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BilgeAdam.Common.Dtos
+namespace BilgeAdam.Common.Dtos.Product
 {
     public class ProductAddDto
     {

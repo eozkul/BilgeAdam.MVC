@@ -1,4 +1,5 @@
-﻿using BilgeAdam.Common.Dtos;
+﻿using BilgeAdam.Common.Dtos.Category;
+
 namespace BilgeAdam.Services.Abstractions
 {
     public interface ICategoryService

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BilgeAdam.Common.Dtos
+namespace BilgeAdam.Common.Dtos.Category
 {
     public class CategoryAddDto
     {

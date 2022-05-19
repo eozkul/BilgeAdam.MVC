@@ -1,4 +1,4 @@
-﻿using BilgeAdam.Common.Dtos;
+﻿using BilgeAdam.Common.Dtos.Product;
 using BilgeAdam.Data;
 using BilgeAdam.Data.Entities;
 using BilgeAdam.Services.Abstractions;

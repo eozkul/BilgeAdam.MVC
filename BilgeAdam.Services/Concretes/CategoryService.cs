@@ -1,13 +1,8 @@
-﻿using BilgeAdam.Common.Dtos;
+﻿
+using BilgeAdam.Common.Dtos.Category;
 using BilgeAdam.Data;
 using BilgeAdam.Data.Entities;
 using BilgeAdam.Services.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace BilgeAdam.Services.Concretes
 {
     internal class CategoryService:ICategoryService

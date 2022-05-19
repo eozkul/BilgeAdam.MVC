@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BilgeAdam.Common.Dtos
+namespace BilgeAdam.Common.Dtos.Custoner
 {
     public class CustomerViewDto
     {
