@@ -33,7 +33,7 @@ namespace BilgeAdam.Services.Concretes
                 dbContext.Customers.Remove(result);
                 dbContext.SaveChanges();
             }
-            return;
+         
         }      
     }          
 }
